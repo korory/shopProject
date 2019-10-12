@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C627D1EF-B0F4-4DB3-9427-0ADB077B473E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "377878BA-B0A8-4FA9-AE17-13E2ED772359"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shopProject/LoginViewControllers/SignUpViewController.swift"
+            timestampString = "590569199.1475101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "clickSignUpButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FAAF169-1EA9-41F2-A46E-B820FE27AC89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shopProject/LoginViewControllers/SignUpViewController.swift"
+            timestampString = "590569199.148102"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "clickSignUpButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8FAAF169-1EA9-41F2-A46E-B820FE27AC89 - e8684f16d258b20e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shopProject.SignUpViewController.clickSignUpButton(Any) -&gt; ()"
+                  moduleName = "shopProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arivasri/Desktop/Udemy%20Objective%20C/Projects%20Switft/shopProject/shopProject/LoginViewControllers/SignUpViewController.swift"
+                  timestampString = "590530750.843245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "3220">
+               </Location>
+               <Location
+                  uuid = "8FAAF169-1EA9-41F2-A46E-B820FE27AC89 - d7f7708e71815b1e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in shopProject.SignUpViewController.clickSignUpButton(Any) -&gt; ()"
+                  moduleName = "shopProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arivasri/Desktop/Udemy%20Objective%20C/Projects%20Switft/shopProject/shopProject/LoginViewControllers/SignUpViewController.swift"
+                  timestampString = "590530750.845102"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAE83730-7DCD-4BC4-ADF2-A6115C154F9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shopProject/LoginViewControllers/LoginViewController.swift"
+            timestampString = "590569199.1485699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "clickLogInBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
