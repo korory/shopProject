@@ -80,28 +80,34 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="nf0-dx-GFo" id="dfF-7n-RKc"/>
+                                </connections>
                             </collectionView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="6if-I2-986">
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="E4l-8H-wDa">
                                 <rect key="frame" x="0.0" y="88" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="nf0-dx-GFo" id="xtz-kR-ZAE"/>
+                                </connections>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="E4l-8H-wDa" firstAttribute="top" secondItem="hWr-cC-gqI" secondAttribute="top" id="0cx-s3-he9"/>
                             <constraint firstItem="HhU-Lb-mb9" firstAttribute="trailing" secondItem="hWr-cC-gqI" secondAttribute="trailing" id="28t-RJ-9Y1"/>
-                            <constraint firstItem="HhU-Lb-mb9" firstAttribute="top" secondItem="6if-I2-986" secondAttribute="bottom" id="Bsb-Pb-BS8"/>
-                            <constraint firstItem="6if-I2-986" firstAttribute="trailing" secondItem="hWr-cC-gqI" secondAttribute="trailing" id="HTm-ef-bOk"/>
-                            <constraint firstItem="HhU-Lb-mb9" firstAttribute="top" secondItem="6if-I2-986" secondAttribute="bottom" id="IXh-ZZ-D6k"/>
-                            <constraint firstItem="6if-I2-986" firstAttribute="top" secondItem="hWr-cC-gqI" secondAttribute="top" id="S83-5V-wZh"/>
+                            <constraint firstItem="E4l-8H-wDa" firstAttribute="leading" secondItem="hWr-cC-gqI" secondAttribute="leading" id="2nT-7T-CdV"/>
                             <constraint firstItem="HhU-Lb-mb9" firstAttribute="leading" secondItem="hWr-cC-gqI" secondAttribute="leading" id="SEF-MG-IDH"/>
                             <constraint firstItem="hWr-cC-gqI" firstAttribute="bottom" secondItem="HhU-Lb-mb9" secondAttribute="bottom" id="fvd-Nj-KAA"/>
-                            <constraint firstItem="6if-I2-986" firstAttribute="leading" secondItem="hWr-cC-gqI" secondAttribute="leading" id="h0M-h0-E5Q"/>
+                            <constraint firstItem="HhU-Lb-mb9" firstAttribute="top" secondItem="E4l-8H-wDa" secondAttribute="bottom" id="pkS-MK-MvM"/>
+                            <constraint firstItem="E4l-8H-wDa" firstAttribute="trailing" secondItem="hWr-cC-gqI" secondAttribute="trailing" id="wna-kB-Bvw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hWr-cC-gqI"/>
                     </view>
                     <navigationItem key="navigationItem" title="My App" id="Dhb-pR-wIn"/>
                     <connections>
                         <outlet property="collectionView" destination="HhU-Lb-mb9" id="RCC-IP-gte"/>
+                        <outlet property="searchBar" destination="E4l-8H-wDa" id="a0h-zd-FCC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9x8-Iz-7RN" userLabel="First Responder" sceneMemberID="firstResponder"/>
